@@ -1,0 +1,19 @@
+{
+    "name": "frankrabbit/auth-crt",
+    "description": "Authenticate user with certificate by openssl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "frank",
+            "email": "frank.fukun@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "FrankRabbit\\Auth\\": "src/"
+        }
+    }
+}
